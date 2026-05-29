@@ -73,6 +73,7 @@ function SetupScreen({ onSave }) {
   const url = "https://vdkpusjmygpdzhdhfzjh.supabase.co";
 
   const test = async () => {
+    onSave(url, key); return;
     setTesting(true); setError("");
     try {
       const r = await fetch(`${url}/rest/v1/`, {

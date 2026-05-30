@@ -1,17 +1,17 @@
 {
-  "name": "ledorini-dashboard",
-  "version": "1.0.0",
-  "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
-  },
+  "name": "ledorini-autopilot",
+  "version": "3.0.0",
+  "main": "server.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "start": "node server.js"
   },
-  "devDependencies": {
-    "vite": "^5.0.0",
-    "@vitejs/plugin-react": "^4.0.0"
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0",
+    "@supabase/supabase-js": "^2.39.0",
+    "express": "^4.18.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "googleapis": "^140.0.0",
+    "node-cron": "^3.0.0",
+    "sharp": "^0.33.0"
   }
 }
